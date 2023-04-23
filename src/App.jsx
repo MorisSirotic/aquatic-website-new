@@ -1,10 +1,9 @@
-import "./App.css";
-
 import { Contact } from "./components/Contact";
 import Footerbar from "./components/Footerbar";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
 import Service from "./components/Service";
+import davor from "./assets/davor.png";
 
 function App() {
   return (
@@ -106,8 +105,17 @@ function App() {
               />
             </div>
           </div>
+          {/* -------------------------------------------------------------------- */}
+
+          <div className="flex justify-between  mt-20  items-center bg-slate-200 p-4 text-slate-700">
+            <div className="text-3xl font-semibold">
+              In close collaboration with:{" "}
+            </div>
+            <img src={davor} />
+          </div>
         </div>
       </div>
+
       <Contact />
 
       <Footerbar />
