@@ -107,7 +107,7 @@ function App() {
           </div>
           {/* -------------------------------------------------------------------- */}
 
-          <div className="flex justify-between  mt-20  items-center bg-slate-200 p-4 text-slate-700">
+          <div className="flex flex-col sm:flex-row justify-between  mt-20  items-center bg-slate-200 p-4 text-slate-700">
             <div className="text-3xl font-semibold">
               In close collaboration with:{" "}
             </div>
